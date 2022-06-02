@@ -28,3 +28,6 @@ Menadżer do tworzenia projektów w RUST. Zarządza wersjami, zależnościami, b
 
 * Budowanie releasa. robi ptymalizacje kodu, buduje sie dluzej:
 ``` cargo build --release ```
+
+* Aktualizacja zaleznosci:
+``` cargo update ```
