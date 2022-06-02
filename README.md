@@ -13,9 +13,18 @@ Menadżer do tworzenia projektów w RUST. Zarządza wersjami, zależnościami, b
 
 ### Tworzenie
 ``` cargo new <nazwa-projektu> ```
-* z gitem:
+* Z gitem:
 ``` cargo new <nazwa-projektu> --vsc=git ```
 
 ### Budowanie
-* W folderze projektu
+* W folderze projektu:
 ``` cargo build ```
+
+* Budowanie i uruchomienie kodu:
+``` cargo run ```
+
+* Sprawdzenie czy kod sie kompiluje, bez kompilacji:
+``` cargo check ```
+
+* Budowanie releasa. robi ptymalizacje kodu, buduje sie dluzej:
+``` cargo build --release ```
